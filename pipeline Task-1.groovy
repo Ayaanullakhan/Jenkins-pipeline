@@ -50,5 +50,10 @@ pipeline {
                 echo 'Tools used: Ansible, SSH, AWS CLI'
             }
         }
+        stage('End') {
+            steps {
+                echo 'Done-- No stage further'
+            }
+        }
     }
 }
