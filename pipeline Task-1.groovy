@@ -52,7 +52,7 @@ pipeline {
         }
         stage('End') {
             steps {
-                echo 'Done-- No stage further'
+                echo 'Done-- No stage forward'
             }
         }
     }
